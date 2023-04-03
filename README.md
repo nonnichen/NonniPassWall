@@ -19,15 +19,17 @@ command -v wget >/dev/null 2>&1 || sudo apt -y install wget
 wget -N --no-check-certificate -q https://raw.githubusercontent.com/nonnichen/NonniPassWall/main/NonniPassWall.sh && chmod +x NonniPassWall.sh && bash NonniPassWall.sh
 </br>
 
+
 <h2>配置文件</h2> </br>
 WebSite：/home/wwwroot/nonnix/ </br>
 TLS-Shunt-Proxy：/etc/tls-shunt-proxy/config.yaml </br>
 Trojan-Go：/etc/trojan-go/config.json </br>
 V2Ray：/etc/v2ray/config.json </br>
 
+
 <h2>访问 Portainer</h2></br>
-http://ServerDomainName:8858
-</br>
+http://ServerDomainName:8858 </br>
+
 
 <h2>如需解决端口占用</h2></br>
 查看: netstat -anp | grep 80 </br>
