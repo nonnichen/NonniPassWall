@@ -17,7 +17,7 @@ Debian 9+ | Ubuntu 16+
 command -v wget >/dev/null 2>&1 || sudo apt -y install wget
 
 2. 执行脚本:
-wget -N --no-check-certificate -q https://nonni.cn/s/NonniPassWall.sh && chmod +x NonniPassWall.sh && bash NonniPassWall.sh
+wget -N --no-check-certificate -q  https://raw.githubusercontent.com/nonnichen/NonniPassWall/main/NonniPassWall.sh && chmod +x NonniPassWall.sh && bash NonniPassWall.sh
 
 
 配置文件:
