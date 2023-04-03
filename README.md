@@ -1,6 +1,6 @@
 # NonniPassWall
  
-简洁部署方案:
+<h2>简洁部署方案<h2>
 
 脚本修改自互联网。</br>
 基于 Docker 容器架构的 Trojan-Go/VLESS/VMess-TCP/WS-TLS 分流部署&管理脚本。</br>
@@ -18,7 +18,7 @@ command -v wget >/dev/null 2>&1 || sudo apt -y install wget
 
 执行脚本: </br>
 wget -N --no-check-certificate -q https://raw.githubusercontent.com/nonnichen/NonniPassWall/main/NonniPassWall.sh && chmod +x NonniPassWall.sh && bash NonniPassWall.sh
-
+</br>
 
 配置文件: </br>
 WebSite：/home/wwwroot/nonnix/ </br>
